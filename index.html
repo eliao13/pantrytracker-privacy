@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy · Kitchen Countdown</title>
+<meta name="description" content="How Kitchen Countdown (PantryTracker) handles your data.">
+<style>
+  :root {
+    --bg: #FAF9F6; --surface: #FFFFFF; --ink: #1C1E1D; --muted: #5B5B60;
+    --line: rgba(60,60,67,0.14); --brand: #1F7A50;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #171412; --surface: #272220; --ink: #F3EDE4; --muted: #BDB4AA;
+      --line: rgba(243,237,228,0.12); --brand: #74CF9E;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--bg); color: var(--ink);
+    font: 17px/1.6 -apple-system, BlinkMacSystemFont, "SF Pro Text", system-ui, sans-serif;
+    -webkit-font-smoothing: antialiased;
+  }
+  main { max-width: 680px; margin: 0 auto; padding: 48px 20px 80px; }
+  h1 { font-size: 34px; line-height: 1.2; margin: 0 0 6px; }
+  h2 { font-size: 20px; margin: 40px 0 8px; }
+  p, li { color: var(--ink); }
+  .meta { color: var(--muted); margin: 0 0 28px; }
+  .summary {
+    background: var(--surface); border: 1px solid var(--line); border-radius: 16px;
+    padding: 4px 20px;
+  }
+  .summary li { margin: 10px 0; }
+  table { width: 100%; border-collapse: collapse; font-size: 15px; }
+  th, td { text-align: left; vertical-align: top; padding: 10px 8px 10px 0; border-bottom: 1px solid var(--line); }
+  th { color: var(--muted); font-weight: 600; }
+  a { color: var(--brand); }
+  footer { margin-top: 48px; color: var(--muted); font-size: 15px; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Privacy Policy</h1>
+  <p class="meta">Kitchen Countdown (also called PantryTracker) · Effective October 4, 2026</p>
+
+  <p>Kitchen Countdown helps you and the people you live with keep track of the food in your
+  kitchen and what to use before it expires. This policy explains what the app collects, why,
+  and the choices you have.</p>
+
+  <div class="summary">
+    <ul>
+      <li><strong>No ads, no analytics, no tracking.</strong> The app doesn't track you across apps
+      or websites, and your data is never sold.</li>
+      <li><strong>Photos, receipts and voice are processed on your iPhone.</strong> The images and
+      audio themselves aren't uploaded.</li>
+      <li><strong>Your kitchen syncs through our server</strong> so everyone in your household sees
+      the same list.</li>
+      <li><strong>You can delete your account in the app</strong> at any time: Settings → Delete
+      account.</li>
+    </ul>
+  </div>
+
+  <h2>What we collect</h2>
+  <table>
+    <tr><th>Data</th><th>Why</th></tr>
+    <tr><td>An account identifier. If you use Sign in with Apple, the email Apple shares with us,
+    which is often a private relay address that hides your real one.</td>
+    <td>To keep your kitchen when you reinstall or switch phones.</td></tr>
+    <tr><td>The display name you enter</td>
+    <td>Shown to other members of your kitchen.</td></tr>
+    <tr><td>Kitchen (household) names, members and invite codes</td>
+    <td>To share one inventory with the people you invite.</td></tr>
+    <tr><td>Items you add: name, category, quantity, place (fridge, freezer, pantry), dates, and
+    whether you used or tossed them</td>
+    <td>This is the inventory itself, plus the history shown in Insights.</td></tr>
+    <tr><td>Barcodes and the product names you confirm</td>
+    <td>Kept in a shared product list so the next scan of the same barcode is instant. This list
+    contains products, not who scanned them.</td></tr>
+  </table>
+  <p>Everyone in a kitchen can see that kitchen's items and members' display names. People who
+  aren't members can't.</p>
+
+  <h2>What stays on your iPhone</h2>
+  <ul>
+    <li><strong>Camera and photos.</strong> Barcodes, receipts, and photos you share into the app
+    from Photos are read on your device using Apple's built-in recognition. The app only sees
+    photos you choose, and doesn't upload them.</li>
+    <li><strong>Voice.</strong> When you add items by voice, speech is turned into text on your
+    iPhone when the device supports it. On older devices Apple's speech service may process the
+    audio under <a href="https://www.apple.com/legal/privacy/">Apple's privacy policy</a>.</li>
+    <li><strong>Reminders and the widget.</strong> Expiry reminders are scheduled on your phone,
+    and the Home Screen widget reads a copy of your upcoming items stored on your phone.</li>
+    <li><strong>Settings</strong> such as theme and reminder time.</li>
+  </ul>
+
+  <h2>Services we use</h2>
+  <ul>
+    <li><strong>Supabase</strong> hosts the database and sign-in that sync your kitchen.</li>
+    <li><strong>Open Food Facts</strong>, a public food database, receives a barcode when you scan
+    a product it might know. Only the barcode is sent, nothing about you.</li>
+    <li><strong>Apple</strong> provides Sign in with Apple and on-device text and speech
+    recognition.</li>
+    <li><strong>Expo</strong> delivers app updates. Like any download, these requests include
+    technical details such as your IP address and app version.</li>
+  </ul>
+  <p>These providers handle data only to provide their service to the app.</p>
+
+  <h2>How long we keep it</h2>
+  <p>Your data is kept while you use the app. Items you mark used or tossed stay in your history
+  so Insights can show trends. When you delete your account, your account and name are deleted
+  right away. Kitchens where you were the only member are deleted with all their items. Kitchens
+  you share stay with the other members, and items you added there remain part of their
+  inventory. Server backups may retain deleted data for a short period before it's overwritten.</p>
+
+  <h2>Your choices</h2>
+  <ul>
+    <li><strong>Delete your account:</strong> Settings → Delete account.</li>
+    <li><strong>Leave or delete a kitchen:</strong> Settings → Leave kitchen.</li>
+    <li><strong>Edit or remove items</strong> at any time from the item's details.</li>
+    <li><strong>Camera, photos, microphone and notifications</strong> are optional and can be
+    turned off in the iPhone Settings app.</li>
+  </ul>
+
+  <h2>Children</h2>
+  <p>Kitchen Countdown isn't directed at children under 13, and we don't knowingly collect their
+  personal information.</p>
+
+  <h2>Changes</h2>
+  <p>If this policy changes, the updated version will be posted here with a new effective date.</p>
+
+  <h2>Contact</h2>
+  <!-- TODO: replace the placeholder address before submitting to the App Store. -->
+  <p>Questions or requests: <a href="mailto:example@example.com">example@example.com</a></p>
+
+  <footer>Kitchen Countdown · Evan Liao</footer>
+</main>
+</body>
+</html>
